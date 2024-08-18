@@ -6,7 +6,9 @@
     font-weight: 300;
     font-size: 24px;
 }
-
+body {
+    background-color: rgb(245, 245, 245);
+}
 header {
     position: relative;
     width: 100%;
@@ -43,5 +45,19 @@ li {
 }
 li:hover {
     color: rgba(255, 255, 255, 1);
+}
+main {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1080px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.section-name {
+    background-color: rgba(95, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
 }
 
