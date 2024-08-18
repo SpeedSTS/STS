@@ -12,8 +12,8 @@ body {
 header {
     position: relative;
     width: 100%;
-    height: 500px;
-    background-color: rgba(95, 0, 0, 0.65);
+    height: 700px;
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
     display: flex;
     justify-content: space-around;
     padding-top: 60px; 
@@ -27,10 +27,13 @@ video {
     height: 100%;
     object-fit: cover;
 }
+.img-banner {
+    height: 60px;
+}
 span {
     font-family: "Anta", sans-serif;
     color: rgba(255, 255, 255, 1);
-    font-size: 40px;
+    font-size: 32px;
 }
 ul {
     list-style: none;
